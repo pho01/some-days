@@ -5,29 +5,30 @@ html body{
 head{
   display: block;
   width: infinite;
-  height: 50pt;
-  background-color: #797f89;
+  height: 55pt;
+  background-color: #d2d7db;
 }
 
 img{
-  width:12%;
+  width:15%;
   height:auto;
   position:absolute;
-  top:1.2%;
-  left:46%;
+  top:.4%;
+  left:44%;
 }
 
 .map{
   width:70%;
   height:auto;
   position:absolute;
-  top:28%;
-  left:15%;
+  top:14%;
+  left:17%;
 
 }
 
 button:focus nav {
   display: block;
+  box-shadow:20px 20px 20px 20px #c9b57e;
 
 }
 nav{
@@ -46,17 +47,18 @@ ul.index-page {
   display: block;
   float:inherit;
   background-color: #ffe496;
-  margin-top: 50pt;
+  margin-top: 55pt;
 
 }
 
 a.index-page-a {
-  color:black;
+  color:#494845;
   display: block;
   text-align: center;
-  letter-spacing: 3pt;
+  letter-spacing: 5pt;
   line-height: 80px;
   text-decoration:underline;
+  font-size: 150%;
   font-family: "Gill sans";
   padding-left: 5pt;
   padding-bottom: 5pt;
@@ -64,7 +66,7 @@ a.index-page-a {
 }
 a.index-page-a:hover{
   display: block;
-  background-color: #797f89;
+  background-color: #f9d97a;
 }
 
 .about-content{
@@ -96,26 +98,35 @@ a.index-page-a:hover{
 li:hover .about-content{
   display:inline-block;
   color:white;
+  top:55pt;
+  bottom:0;
   right:100%;
-  width:360%;
-  height:60%;
-  background-color:black;
+  width:400%;
+  background-color:#494845;
+  opacity: 0.92;
+    filter: Alpha(opacity=92);
 }
 li:hover .editor-content{
   display:inline-block;
   color:white;
+  top:55pt;
+  bottom:0;
   right:100%;
-  width:360%;
-  height:60%;
-  background-color:black;
+  width:400%;
+  background-color:#494845;
+  opacity: 0.92;
+    filter: Alpha(opacity=92);
 }
 li:hover .contact-content{
   display: inline-block;
   color:white;
+  top:55pt;
+  bottom:0;
   right:100%;
-  width:360%;
-  height:60%;
-  background-color:black;
+  width:400%;
+  background-color:#494845;
+  opacity: 0.92;
+    filter: Alpha(opacity=92);
 }
 
 /
