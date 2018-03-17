@@ -2,17 +2,101 @@ html body{
 
 }
 
-.class-for-navigation{
-margin-left: 15%;
+head{
+  display: block;
+  width: infinite;
+  height: 50pt;
+  background-color: #797f89;
+}
+
+img{
+  width:12%;
+  height:auto;
+  position:absolute;
+  top:1.2%;
+  left:46%;
+}
+
+.map{
+  width:70%;
+  height:auto;
+  position:absolute;
+  top:28%;
+  left:15%;
+
+}
+
+nav{
+  display: block;
+  background-color: #ffe496;
+  top:0;
+  bottom:0;
+  right:0;
+  position:fixed;
+  width:20%;
+}
+
+ul.index-page {
+  list-style-type:none;
+  display: block;
+  float:inherit;
+  background-color: #ffe496;
+  margin-top: 50pt;
+
+}
+
+a.index-page-a {
+  color:black;
+  display: block;
+  text-align: center;
+  letter-spacing: 3pt;
+  line-height: 80px;
+  text-decoration:underline;
+  font-family: "Gill sans";
+  padding-left: 5pt;
+  padding-bottom: 5pt;
+  width:inherit;
+}
+a.index-page-a:hover{
+  display: block;
+  background-color: #797f89;
+}
+a.index-page-a:hover li.about-content{
+  display:block;
+  color:white;
+  background-color:black;
+}
+li.about-content{
+  display:none;
+}
+li.editor-content{
+  display:none;
+}
+li.contact-content{
+  display:none;
+}
+
+ul.index-page li a.index-page-a:hover li.about-content{
+  display: block;
+}
+
+
+/
+
+body.class-for-navigation{
+margin-left: 45%;
 font-size: 21pt;
 font-family: "Gill sans";
 }
+
+
 h1{
   font-size: 80pt;
   font-weight:bold;
   letter-spacing: 8pt;
   padding-top: 2%;
   padding-bottom: 1%;
+  font-family: "Gill sans";
 }
 
 h2{
@@ -34,10 +118,12 @@ h2{
   color: #ff9000;
   letter-spacing: 2pt;
 }
+
 h3{
   font-size: 16pt;
   font-weight: normal;
   letter-spacing: 1pt;
+  font-family: "Gill sans";
 
 }
 
@@ -61,6 +147,7 @@ li.dropdown{
   font-weight: bold;
   padding: 14px 16px;
   text-decoration: underline;
+  font-family: "Gill sans";
 }
 
 .dropbtn:hover {
