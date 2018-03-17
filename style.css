@@ -131,21 +131,30 @@ li:hover .contact-content{
 
 /
 
-body.class-for-navigation{
-margin-left: 45%;
+.class-for-navigation{
 font-size: 21pt;
 font-family: "Gill sans";
+
 }
 
-
+.MD-flag{
+  width:10%;
+  height:auto;
+  margin-left: -18%;
+  top:15%;
+}
 h1{
-  font-size: 80pt;
-  font-weight:bold;
+  font-size: 60pt;
+  font-family:"Palatino";
+  color:#494845;
   letter-spacing: 8pt;
-  padding-top: 2%;
-  padding-bottom: 1%;
-  font-family: "Gill sans";
+  font-weight:bold;
+  margin-top: 6%;
+  margin-bottom: 4%;
+  margin-left: 39%;
+
 }
+
 
 h2{
   font-size: 24pt;
@@ -155,6 +164,7 @@ h2{
   font-weight:bold;
   margin-top: 5%;
   margin-bottom: 4%;
+  margin-left: 28%;
 }
 .MICA{
   font-weight: bold;
@@ -172,7 +182,11 @@ h3{
   font-weight: normal;
   letter-spacing: 1pt;
   font-family: "Gill sans";
+  margin-left: 28%;
 
+}
+h4{
+  margin-left: 28%;
 }
 
 ul{
