@@ -26,8 +26,12 @@ img{
 
 }
 
-nav{
+button:focus nav {
   display: block;
+
+}
+nav{
+  display: none;
   background-color: #ffe496;
   top:0;
   bottom:0;
@@ -35,6 +39,7 @@ nav{
   position:fixed;
   width:20%;
 }
+
 
 ul.index-page {
   list-style-type:none;
@@ -61,25 +66,57 @@ a.index-page-a:hover{
   display: block;
   background-color: #797f89;
 }
-a.index-page-a:hover li.about-content{
-  display:block;
+
+.about-content{
+  display:none;
+  position:absolute;
+  text-align: center;
+  font-family: "Gill sans";
+  font-weight: lighter;
+  padding-top: 5%;
+
+}
+.editor-content{
+  display:none;
+  position:absolute;
+  text-align: center;
+  font-family: "Gill sans";
+  font-weight: lighter;
+  padding-top: 5%;
+}
+.contact-content{
+  display:none;
+  position:absolute;
+  text-align: center;
+  font-family: "Gill sans";
+  font-weight: lighter;
+  padding-top: 5%;
+}
+
+li:hover .about-content{
+  display:inline-block;
   color:white;
+  right:100%;
+  width:360%;
+  height:60%;
   background-color:black;
 }
-li.about-content{
-  display:none;
+li:hover .editor-content{
+  display:inline-block;
+  color:white;
+  right:100%;
+  width:360%;
+  height:60%;
+  background-color:black;
 }
-li.editor-content{
-  display:none;
+li:hover .contact-content{
+  display: inline-block;
+  color:white;
+  right:100%;
+  width:360%;
+  height:60%;
+  background-color:black;
 }
-li.contact-content{
-  display:none;
-}
-
-ul.index-page li a.index-page-a:hover li.about-content{
-  display: block;
-}
-
 
 /
 
