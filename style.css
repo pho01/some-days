@@ -1,4 +1,6 @@
-html body{
+html,body{
+  width:100%;
+  height:100%;
 
 }
 
@@ -9,7 +11,7 @@ head{
   background-color: #d2d7db;
 }
 
-img{
+img.web-name-logo{
   width:15%;
   height:auto;
   position:absolute;
@@ -18,12 +20,30 @@ img{
 }
 
 .map{
-  width:64%;
-  height:auto;
+  width:845px;
+  height:527px;
   position:absolute;
-  top:14%;
-  left:19%;
+  top:16%;
+  left:21%;
 
+}
+
+button{
+  display:block;
+  width:50pt;
+  height:50pt;
+  background-color: #fcde88;
+  border-radius: 50%;
+  margin-left: 10pt;
+  margin-top:10pt;
+  background-image: url(ship.png);
+  background-size: cover;
+  border:none;
+  outline: none;
+}
+
+button:hover{
+  box-shadow:2px 2px 2px 2px #899cba;
 }
 
 button:focus nav {
@@ -129,7 +149,7 @@ li:hover .contact-content{
     filter: Alpha(opacity=92);
 }
 
-/
+
 
 .class-for-navigation{
 font-size: 21pt;
@@ -239,4 +259,8 @@ li.dropdown{
     display:block;
 }
 
+
+body.class-for-body{
+  background-image: url("peijung.JPG");
+  background-size: cover;
 }
