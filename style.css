@@ -263,4 +263,35 @@ li.dropdown{
 body.class-for-body{
   background-image: url("peijung.JPG");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+ul.peijung-intro{
+  list-style-type:disc;
+  display: block;
+  margin-left: 10%;
+  margin-top: 4.5%;
+  margin-right: 10%;
+  border-left: 1.2px solid white;
+  height:infinite;
+  background-color: inherit;
+}
+
+li.peijung_intro_li{
+  color:white;
+  font-family:"Gill sans";
+  font-size: 14pt;
+  letter-spacing: 3pt;
+  line-height:40pt;
+  padding-left: 10px;
+}
+.peijung_intro_hiddencontent{
+  display: none;
+}
+.peijung_intro_studyexperiencecontent{
+  display: none;
+}
+.peijung_intro_goalcontent{
+  display: none;
 }
