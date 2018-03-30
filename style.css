@@ -295,3 +295,31 @@ li.peijung_intro_li{
 .peijung_intro_goalcontent{
   display: none;
 }
+.class-for-peiday{
+  background-color: white;
+  background-image: url(peijung.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width:72%;
+  margin-left:14%;
+  margin-top: 5%;
+  grid-gap: 5px;
+
+}
+.grid-item{
+  border: 0.5px solid white;
+  text-align: center;
+
+}
+.grid-item img{
+  width:100%;
+  align-items: center;
+  height:auto;padding: 0 0 0 0;
+  float: left;
+
+}
