@@ -4,9 +4,10 @@ html,body{
 
 }
 
+
 head{
   display: block;
-  width: infinite;
+  width: 100%;
   height: 55pt;
   background-color: #d2d7db;
 }
@@ -302,4 +303,222 @@ li.peijung_intro_li{
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows:repeat(10 auto);
+  width:60%;
+  margin-left:20%;
+  margin-right:20%;
+  margin-top: 5%;
+  grid-gap: 8px;
+}
+.grid-item {
+  border: 1px solid white;
+  text-align: center;
+}
+.front img{
+  height:100%;
+  width:100%;
+  float:left;
+}
+.grid-item .front{
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition:all 1s ease-in-out;
+  transform:rotateY(0deg);
+  z-index: 1;
+}
+.front:hover .back img{
+  height:100%;
+  width:100%;
+  float:left;
+}
+
+.grid-item .back{
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition:all 1s ease-in-out;
+  transform:rotateY(-180deg);
+  z-index: 0;
+}
+.front:hover{
+  transform: rotateY(180deg);
+}
+
+.back2{
+  width:100%;
+  height:100%;
+  background-image: url(whole-2.jpg);
+  background-size: cover;
+}
+.back3{
+  width:100%;
+  height:100%;
+  background-image: url(whole-3.jpg);
+  background-size: cover;
+}
+.back4{
+  width:100%;
+  height:100%;
+  background-image: url(whole-4.jpg);
+  background-size: cover;
+}
+.back5{
+  width:100%;
+  height:100%;
+  background-image: url(whole-5.jpg);
+  background-size: cover;
+}
+.back6{
+  width:100%;
+  height:100%;
+  background-image: url(whole-6.jpg);
+  background-size: cover;
+}
+.back7{
+  width:100%;
+  height:100%;
+  background-image: url(whole-7.jpg);
+  background-size: cover;
+}
+.back8{
+  width:100%;
+  height:100%;
+  background-image: url(whole-8.jpg);
+  background-size: cover;
+}
+.back9{
+  width:100%;
+  height:100%;
+  background-image: url(whole-9.jpg);
+  background-size: cover;
+}
+.back10{
+  width:100%;
+  height:100%;
+  background-image: url(whole-10.jpg);
+  background-size: cover;
+}
+.back11{
+  width:100%;
+  height:100%;
+  background-image: url(whole-11.jpg);
+  background-size: cover;
+}
+.back12{
+  width:100%;
+  height:100%;
+  background-image: url(whole-12.jpg);
+  background-size: cover;
+}
+.back13{
+  width:100%;
+  height:100%;
+  background-image: url(whole-13.jpg);
+  background-size: cover;
+}
+.back14{
+  width:100%;
+  height:100%;
+  background-image: url(whole-14.jpg);
+  background-size: cover;
+}
+.back15{
+  width:100%;
+  height:100%;
+  background-image: url(whole-15.jpg);
+  background-size: cover;
+}
+.back16{
+  width:100%;
+  height:100%;
+  background-image: url(whole-16.jpg);
+  background-size: cover;
+}
+.back17{
+  width:100%;
+  height:100%;
+  background-image: url(whole-17.jpg);
+  background-size: cover;
+}
+.back18{
+  width:100%;
+  height:100%;
+  background-image: url(whole-18.jpg);
+  background-size: cover;
+}
+.back19{
+  width:100%;
+  height:100%;
+  background-image: url(whole-19.jpg);
+  background-size: cover;
+}
+.back20{
+  width:100%;
+  height:100%;
+  background-image: url(whole-20.jpg);
+  background-size: cover;
+}
+.back21{
+  width:100%;
+  height:100%;
+  background-image: url(whole-21.jpg);
+  background-size: cover;
+}
+.back22{
+  width:100%;
+  height:100%;
+  background-image: url(whole-22.jpg);
+  background-size: cover;
+}
+.back23{
+  width:100%;
+  height:100%;
+  background-image: url(whole-23.jpg);
+  background-size: cover;
+}
+.back24{
+  width:100%;
+  height:100%;
+  background-image: url(whole-24.jpg);
+  background-size: cover;
+}
+.back25{
+  width:100%;
+  height:100%;
+  background-image: url(whole-25.jpg);
+  background-size: cover;
+}
+.back26{
+  width:100%;
+  height:100%;
+  background-image: url(whole-26.jpg);
+  background-size: cover;
+}
+.back27{
+  width:100%;
+  height:100%;
+  background-image: url(whole-27.jpg);
+  background-size: cover;
+}
+.back28{
+  width:100%;
+  height:100%;
+  background-image: url(whole-28.jpg);
+  background-size: cover;
+}
+.back29{
+  width:100%;
+  height:100%;
+  background-image: url(whole-29.jpg);
+  background-size: cover;
+}
+.back30{
+  width:100%;
+  height:100%;
+  background-image: url(whole-30.jpg);
+  background-size: cover;
+
 }
