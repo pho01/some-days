@@ -268,6 +268,10 @@ body.class-for-body{
   background-attachment: fixed;
 }
 
+body.class-for-peiday {
+  margin:0;
+}
+
 ul.peijung-intro{
   list-style-type:disc;
   display: block;
@@ -317,6 +321,9 @@ li.peijung_intro_li{
 .grid-item {
   border: 1px solid white;
   text-align: center;
+  position: relative;
+  width:20vw;
+  height:20vw;
 }
 .front img{
   height:100%;
@@ -326,11 +333,16 @@ li.peijung_intro_li{
 .grid-item .front{
   backface-visibility: hidden;
   transform-style: preserve-3d;
-  transition:all 1s ease-in-out;
+  transition:all 1.4s ease-in-out;
   transform:rotateY(0deg);
   z-index: 1;
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
 }
-.front:hover .back img{
+.back img{
   height:100%;
   width:100%;
   float:left;
@@ -339,20 +351,24 @@ li.peijung_intro_li{
 .grid-item .back{
   backface-visibility: hidden;
   transform-style: preserve-3d;
-  transition:all 1s ease-in-out;
+  transition:all 1.4s ease-in-out;
   transform:rotateY(-180deg);
   z-index: 0;
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
 }
-.front:hover{
+.grid-item:hover .front{
   transform: rotateY(180deg);
 }
 
-.back2{
-  width:100%;
-  height:100%;
-  background-image: url(whole-2.jpg);
-  background-size: cover;
+.grid-item:hover .back{
+  transform: rotateY(0);
 }
+
+
 .back3{
   width:100%;
   height:100%;
@@ -521,4 +537,38 @@ li.peijung_intro_li{
   background-image: url(whole-30.jpg);
   background-size: cover;
 
+}
+.hour-bar{
+  position:fixed;
+  margin-left: 0%;
+  margin-right: 4%;
+  margin-top: 0%;
+  width:8%;
+  height:80%;
+  background-color: #d2d7db;
+  transform:translateX(-90%);
+}
+.hour-bar:hover{
+    transform:translateX(0%);
+
+}
+
+.hour-bar li{
+  display:block;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  background-color: #d2d7db;
+  text-align: center;
+
+
+}
+.hour-bar a{
+  font-family: "Gill Sans";
+  font-size: 10pt;
+  color:#55595e;
+  letter-spacing: 2px;
+
+}
+.hour-bar a:hover{
+  color:white;
 }
