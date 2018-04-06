@@ -360,11 +360,11 @@ li.peijung_intro_li{
   right:0;
   bottom:0;
 }
-.grid-item:hover .front{
+.grid-item.flip .front{
   transform: rotateY(180deg);
 }
 
-.grid-item:hover .back{
+.grid-item.flip .back{
   transform: rotateY(0);
 }
 
